@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Loop 1 - Step 1</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="row">
+    <div class="box">
+      <div class="product">
+        <div class="item" id="myBtnFirst">
+          <div class="img"><img src="img/device.svg" alt="mobile"></div>
+          <h3>MOBILE</h3>
+          <p class="desc">Get notifications about new<br> releases in our mobile app.</p>
+          <p class="price"><span class="bucks">$</span><span class="cost">10</span>/month</p>
+        </div>
+      </div>
+      <div class="product">
+        <div class="item" id="myBtnSecond">
+          <div class="img"><img src="img/laptop.svg" alt="laptop"></div>
+          <h3>DESKTOP</h3>
+          <p class="desc">Enjoy new episodes on your laptop<br> in browser with our web service, which supports all the platforms.</p>
+          <p class="price"><span class="bucks">$</span><span class="cost">15</span>/month</p>
+        </div>
+      </div>
+      <div class="product">
+        <div class="item" id="myBtnThird">
+          <div class="img"><img src="img/monitor.svg" alt="TV"></div>
+          <h3>TV</h3>
+          <p class="desc">Watch your favorite series at home on large screen wirh our TV application.</p>
+          <p class="price"><span class="bucks">$</span><span class="cost">20</span>/month</p>
+        </div>
+      </div>
+      <button>Give feedback</button>
+    </div>
+  </div>
+  <div id="myModalFirst" class="modal">
+    <div class="popup">
+      <span class="close"><img src="img/cross.svg" alt=""></span>
+      <div class="item">
+        <h3>Confirmation</h3>
+        <div class="img"><img src="img/device.svg" alt="mobile"></div>
+        <h3 class="modal-h3">MOBILE</h3>
+        <p class="desc">Get notifications about new<br> releases in our mobile app.</p>
+        <p class="price"><span class="bucks">$</span><span class="cost">10</span>/month</p>
+        <button>Confirm and pay</button>
+      </div>
+    </div>
+  </div>
+  <div id="myModalSecond" class="modal">
+    <div class="popup">
+      <span class="close"><img src="img/cross.svg" alt=""></span>
+      <div class="item">
+        <h3>Confirmation</h3>
+        <div class="img"><img src="img/laptop.svg" alt="laptop"></div>
+        <h3 class="modal-h3">DESKTOP</h3>
+        <p class="desc">Enjoy new episodes on your laptop<br> in browser with our web service, which supports all the platforms.</p>
+        <p class="price"><span class="bucks">$</span><span class="cost">15</span>/month</p>
+        <button>Confirm and pay</button>
+      </div>
+    </div>
+  </div>
+  <div id="myModalThird" class="modal">
+    <div class="popup">
+      <span class="close"><img src="img/cross.svg" alt=""></span>
+      <div class="item">
+        <h3>Confirmation</h3>
+        <div class="img"><img src="img/monitor.svg" alt="TV"></div>
+        <h3 class="modal-h3">TV</h3>
+        <p class="desc">Watch your favorite series at home on large screen wirh our TV application.</p>
+        <p class="price"><span class="bucks">$</span><span class="cost">20</span>/month</p>
+        <button>Confirm and pay</button>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
