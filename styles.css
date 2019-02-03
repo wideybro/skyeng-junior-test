@@ -83,37 +83,6 @@ button {
     background-color: #4169e1;
 }
 
-@media (max-width: 768px) {
-    .box{
-        max-width: 500px;
-        padding: 15px 0 50px;
-    }
-
-    .product {
-        display: block;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        vertical-align: top;
-    }
-
-    .item {
-        display: block;
-        max-width: 70%;
-        margin-right: auto;
-        margin-left: auto;
-        padding-top: 10px;
-    }
-
-    .desc {
-        display: block;
-        width: 60%;
-        min-width: 200px;
-        margin-right: auto;
-        margin-left: auto;
-    }
-}
-
 .modal {
     position: fixed;
     z-index: 1;
@@ -173,6 +142,7 @@ button {
     font-weight: bold;
     float: right;
     color: white;
+    margin: 5px 10px 0 0;
 }
 
 .close:hover,
@@ -180,4 +150,51 @@ button {
     cursor: pointer;
     text-decoration: none;
     color: #000;
+}
+
+@media (max-width: 768px) {
+    .box{
+        max-width: 500px;
+        padding: 15px 0 50px;
+        margin-bottom: 50px;
+    }
+
+    .product {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        vertical-align: top;
+    }
+
+    .item {
+        display: block;
+        max-width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-top: 10px;
+    }
+
+    .desc {
+        display: block;
+        width: 60%;
+        min-width: 200px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+  
+    .modal .popup {
+        max-width: 320px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .modal .item {
+        width: 23%;
+        min-width: 300px;
+        margin: 20px 0 0;
+        padding: 20px 10px 5px;
+        text-align: center;
+        background: white;
+    }
 }
